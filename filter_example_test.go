@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/zellyn/kooky"
+	"github.com/adrestea/kooky"
 )
 
 // example regex matching base64 strings

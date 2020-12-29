@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-// TODO(zellyn): figure out what to do with quoted values, like the "bcookie" cookie
+// TODO(adrestea): figure out what to do with quoted values, like the "bcookie" cookie
 // from slideshare.net
 
 // Cookie is the struct returned by functions in this package. Similar to http.Cookie.

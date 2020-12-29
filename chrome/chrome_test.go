@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zellyn/kooky"
-	"github.com/zellyn/kooky/internal/chrome"
-	"github.com/zellyn/kooky/internal/testutils"
+	"github.com/adrestea/kooky"
+	"github.com/adrestea/kooky/internal/chrome"
+	"github.com/adrestea/kooky/internal/testutils"
 )
 
 // d18f6247db68045dfbab126d814baf2cf1512141391
@@ -38,7 +38,7 @@ func TestReadCookies(t *testing.T) {
 	}
 	cookie := cookies[0]
 
-	wantValue := "zellyn&p2EXEjsXVNPxXcrZiK8DoezI4Erqt0vA"
+	wantValue := "adrestea&p2EXEjsXVNPxXcrZiK8DoezI4Erqt0vA"
 	if cookie.Value != wantValue {
 		t.Errorf("Want cookie value %q; got %q", wantValue, cookie.Value)
 	}

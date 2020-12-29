@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/zellyn/kooky"
+	"github.com/adrestea/kooky"
 
 	"github.com/bobesa/go-domain-util/domainutil"
 	"github.com/go-sqlite/sqlite3"

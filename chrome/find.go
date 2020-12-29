@@ -1,10 +1,10 @@
 package chrome
 
 import (
-	"github.com/zellyn/kooky"
-	"github.com/zellyn/kooky/internal"
-	"github.com/zellyn/kooky/internal/chrome"
-	"github.com/zellyn/kooky/internal/chrome/find"
+	"github.com/adrestea/kooky"
+	"github.com/adrestea/kooky/internal"
+	"github.com/adrestea/kooky/internal/chrome"
+	"github.com/adrestea/kooky/internal/chrome/find"
 )
 
 type chromeFinder struct{}

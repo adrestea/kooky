@@ -13,8 +13,8 @@ import (
 
 	"golang.org/x/crypto/pbkdf2"
 
-	"github.com/zellyn/kooky"
-	"github.com/zellyn/kooky/internal/utils"
+	"github.com/adrestea/kooky"
+	"github.com/adrestea/kooky/internal/utils"
 
 	"github.com/go-sqlite/sqlite3"
 )
@@ -86,7 +86,7 @@ func (s *CookieStore) ReadCookies(filters ...kooky.Filter) ([]*kooky.Cookie, err
 			return errors.New(`unexpected nil rowID in Chrome sqlite database`)
 		}
 
-		// TODO(zellyn): handle older, shorter rows?
+		// TODO(adrestea): handle older, shorter rows?
 		if lRec := len(rec.Values); lRec < 14 {
 			return fmt.Errorf("expected at least 14 columns in cookie file, got: %d", lRec)
 		} else if highestIndex > lRec {

@@ -4,8 +4,8 @@ import (
 	"errors"
 
 	"github.com/go-sqlite/sqlite3"
-	"github.com/zellyn/kooky"
-	"github.com/zellyn/kooky/internal"
+	"github.com/adrestea/kooky"
+	"github.com/adrestea/kooky/internal"
 )
 
 type CookieStore struct {

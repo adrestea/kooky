@@ -9,8 +9,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/zellyn/kooky"
-	"github.com/zellyn/kooky/internal"
+	"github.com/adrestea/kooky"
+	"github.com/adrestea/kooky/internal"
 )
 
 type safariFinder struct{}

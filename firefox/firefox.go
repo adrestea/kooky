@@ -1,8 +1,8 @@
 package firefox
 
 import (
-	"github.com/zellyn/kooky"
-	"github.com/zellyn/kooky/internal/firefox"
+	"github.com/adrestea/kooky"
+	"github.com/adrestea/kooky/internal/firefox"
 )
 
 func ReadCookies(filename string, filters ...kooky.Filter) ([]*kooky.Cookie, error) {

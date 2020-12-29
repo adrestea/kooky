@@ -3,7 +3,7 @@ package kooky_test
 import (
 	"os"
 
-	"github.com/zellyn/kooky"
+	"github.com/adrestea/kooky"
 )
 
 var cookieFile = `cookies.txt`

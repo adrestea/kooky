@@ -1,8 +1,8 @@
 # kooky
 
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/zellyn/kooky)](https://pkg.go.dev/github.com/zellyn/kooky)
-[![Go Report Card](https://goreportcard.com/badge/zellyn/kooky)](https://goreportcard.com/report/zellyn/kooky)
-![Lines of code](https://img.shields.io/tokei/lines/github/zellyn/kooky)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/adrestea/kooky)](https://pkg.go.dev/github.com/adrestea/kooky)
+[![Go Report Card](https://goreportcard.com/badge/adrestea/kooky)](https://goreportcard.com/report/adrestea/kooky)
+![Lines of code](https://img.shields.io/tokei/lines/github/adrestea/kooky)
 [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
@@ -48,8 +48,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/zellyn/kooky"
-	_ "github.com/zellyn/kooky/allbrowsers" // register cookie store finders!
+	"github.com/adrestea/kooky"
+	_ "github.com/adrestea/kooky/allbrowsers" // register cookie store finders!
 )
 
 func main() {
@@ -73,7 +73,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/zellyn/kooky/chrome"
+	"github.com/adrestea/kooky/chrome"
 )
 
 func main() {
@@ -99,7 +99,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/zellyn/kooky/safari"
+	"github.com/adrestea/kooky/safari"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-module github.com/zellyn/kooky
+module github.com/adrestea/kooky
 
 go 1.13
 

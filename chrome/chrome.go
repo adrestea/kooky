@@ -13,7 +13,7 @@ func ReadCookies(filename string, filters ...kooky.Filter) ([]*kooky.Cookie, err
 
 	// TODO
 	switch runtime.GOOS {
-	case `windows`, `darwin`:
+	case `windows`, `darwin` , `linux`:
 		s.BrowserStr = `chrome`
 	default:
 		s.BrowserStr = `chromium`
